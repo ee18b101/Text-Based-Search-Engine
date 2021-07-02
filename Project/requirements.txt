@@ -1,0 +1,5 @@
+nltk
+editdistance
+spacy
+torch
+transformers

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+esa_wiki/__init__.py
+esa_wiki/cunning_linguistics.py
+esa_wiki/generate_indices.py
+esa_wiki/matrix_builder.py
+esa_wiki/shared.py
+esa_wiki/wikicleaner.py
+esa_wiki/xml_parse.py
+esa_wiki.egg-info/PKG-INFO
+esa_wiki.egg-info/SOURCES.txt
+esa_wiki.egg-info/dependency_links.txt
+esa_wiki.egg-info/top_level.txt
