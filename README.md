@@ -55,3 +55,6 @@ _Suggestions:_
 * "structural and aerodynamic problems"
 * "structural and aerodynamic heat transfer to conical bodies for both laminar and turbulent flow"
 * "structural and aerodynamic coefficients during re-entry"
+
+## Usage
+README and Usage of the code is given under the Project Directory.
