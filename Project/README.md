@@ -69,3 +69,5 @@ $> Papers on Aerodynamics <br>
 
 This will generate *queries.txt files in the OUTPUT FOLDER after each stage of preprocessing of the query and *docs.txt files in the OUTPUT FOLDER after each stage of preprocessing of the documents.
 
+## Changing Dataset from Cranfield to other datasets
+Replace the Dataset folder with your dataset and change the names in `main.py` accordingly.
