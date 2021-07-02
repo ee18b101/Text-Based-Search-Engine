@@ -1,19 +1,19 @@
 ## Install All Dependencies:
-1. run pip install -r requirements.txt
-2. run python -m spacy download en_core_web_sm
+1. run `pip install -r requirements.txt`
+2. run `python -m spacy download en_core_web_sm`
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Build Environment:
 Go into the esa_wiki-0.0.1 folder and run
-* python setup.py build
-* python setup.py install
+* `python setup.py build`
+* `python setup.py install`
 
 ### Build concept Space for ESA Wikipedia. 
 Go into esa_wiki-0.0.1 folder and Run:
-* python -m esa_wiki.xml_parse <wiki dump file>
-* python -m esa_wiki.generate_indices
-* python -m esa_wiki.matrix_builder
+* `python -m esa_wiki.xml_parse <wiki dump file>`
+* `python -m esa_wiki.generate_indices`
+* `python -m esa_wiki.matrix_builder`
 
 The wiki dump files are: (choose one)
 1. medium_wiki.xml
@@ -63,9 +63,9 @@ main.py [-custom] [-dataset DATASET FOLDER] [-out_folder OUTPUT FOLDER]
 ### Example
 the queries in the Cranfield dataset are considered, for example:
 
-$> python main.py -custom <br>
-$> Enter query below <br>
-$> Papers on Aerodynamics <br>
+$> `python main.py -custom` <br>
+$> `Enter query below` <br>
+$> `Papers on Aerodynamics` <br>
 
 This will generate *queries.txt files in the OUTPUT FOLDER after each stage of preprocessing of the query and *docs.txt files in the OUTPUT FOLDER after each stage of preprocessing of the documents.
 
